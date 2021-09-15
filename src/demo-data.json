@@ -1,0 +1,152 @@
+[
+  {
+      "name": "Starter",
+      "id": "Starter-id",
+      "subOptions": [
+          {
+              "name": "Starter Service 1",
+              "id": "Starter-service-id-1",
+              "subOptions": [],
+              "price": "$5"
+          },
+          {
+              "name": "Starter Service 2",
+              "id": "Starter-service-id-2",
+              "subOptions": [],
+              "price": "$6"
+          }
+      ]
+  },
+  {
+      "name": "Bronze",
+      "id": "Bronze-id",
+      "subOptions": [
+          {
+              "name": "Bronze Service 1",
+              "id": "bronze-id",
+              "subOptions": [
+                  {
+                      "name": "Bronze Service 1 - Sub1",
+                      "id": "mild-id",
+                      "subOptions": [],
+                      "price": "$7"
+                  },
+                  {
+                      "name": "Bronze Service 1 - Sub2",
+                      "id": "hot-id",
+                      "subOptions": [
+                          {
+                              "name": "Bronze Service 1 - Sub2-1",
+                              "id": "jalapeno-id",
+                              "subOptions": [],
+                              "price": "$8"
+                          },
+                          {
+                              "name": "Bronze Service 1 - Sub2-2",
+                              "id": "cayenne-id",
+                              "subOptions": [],
+                              "price": "$9"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "name": "Bronze Service 2",
+              "id": "bbq-id",
+              "subOptions": [],
+              "price": "$9"
+          }
+      ]
+  },
+  {
+      "name": "Silver",
+      "id": "Silver-id",
+      "subOptions": [
+          {
+              "name": "Silver Service 1",
+              "id": "buffalo-id",
+              "subOptions": [
+                  {
+                      "name": "Silver Service 1 - Sub1",
+                      "id": "silhot-id",
+                      "subOptions": [
+                          {
+                              "name": "Silver Service 1 - Sub1 - 1",
+                              "id": "siljalapeno-id-1",
+                              "subOptions": [],
+                              "price": "$10"
+                          },
+                          {
+                              "name": "Silver Service 1 - Sub1 - 2",
+                              "id": "siljalapeno-id-2",
+                              "subOptions": [],
+                              "price": "$11"
+                          }
+                      ]
+                  },
+                  {
+                      "name": "Silver Service 1 - Sub2",
+                      "id": "silmild-id",
+                      "subOptions": [],
+                      "price": "$12"
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "name": "Gold",
+      "id": "Gold-id",
+      "subOptions": [
+          {
+              "name": "VIP service 1",
+              "id": "vip-id",
+              "subOptions": [
+                  {
+                      "name": "VIP service 1 - Sub1",
+                      "id": "vipmild-id",
+                      "subOptions": [],
+                      "price": "$12"
+                  },
+                  {
+                      "name": "VIP service 1 - Sub2",
+                      "id": "viphot-id",
+                      "subOptions": [
+                          {
+                              "name": "VIP service 1 - Sub2 - 1",
+                              "id": "vipjalapeno-id",
+                              "subOptions": [],
+                              "price": "$14"
+                          },
+                          {
+                              "name": "VIP service 1 - Sub2 - 2",
+                              "id": "vipcayenne-id",
+                              "subOptions": [],
+                              "price": "$15"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "name": "VIP service 2",
+              "id": "vipbbq-id",
+              "subOptions": [
+                  {
+                      "name": "VIP Service 2 - Sub1",
+                      "id": "VIP-service-id-1",
+                      "subOptions": [],
+                      "price": "$20"
+                  },
+                  {
+                      "name": "VIP Service 2 - Sub2",
+                      "id": "VIP-service-id-2",
+                      "subOptions": [],
+                      "price": "$50"
+                  }
+              ]
+          }
+      ]
+  }
+]
