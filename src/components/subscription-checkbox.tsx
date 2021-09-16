@@ -17,7 +17,7 @@ const Checkbox = ({ selected, label, price, onChange }: IProps) => {
                     onChange(!selected)
                 }}
             />
-            <div className="checkbox__label">{label}{price?`(${price})`:' ( - ) '}</div>
+            <div className="checkbox__label">{label}{price?`($${price})`:' ( - ) '}</div>
         </div>
     )
 }

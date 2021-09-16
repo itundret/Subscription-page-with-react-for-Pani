@@ -12,7 +12,7 @@ interface IProps {
 
 const SubscriptionList: React.FC<IProps> = () => {
     const [selectedOptions, setSelectedOptions] = useState({});
-    const [price, setPrice] = useState("");
+    const [price, setPrice] = useState(0);
     return (
         <div className="list row text-center">
             <div className="col-md-12 mt-5">
@@ -24,12 +24,13 @@ const SubscriptionList: React.FC<IProps> = () => {
                             setSelectedOptions(selectedOptions)
                         }}
                         selectedOptions={selectedOptions}
-                        getPrice={(price: string) => setPrice(price)}
+                        addPrice={(p: number) => setPrice(price + p)}
+                        subPrice={(p: number) => setPrice(price - p)}
                     />
                 </div>
                 <div>
                     
-                    <button className="m-3 btn btn-sm btn-danger w-25">Pay {price?`( ${price} / mo )`:''}</button>
+                    <button className="m-3 btn btn-sm btn-danger w-25">Pay {price?`($ ${price} / mo )`:''}</button>
                 </div>    
             </div>
         </div>

@@ -7,13 +7,13 @@
               "name": "Starter Service 1",
               "id": "Starter-service-id-1",
               "subOptions": [],
-              "price": "$5"
+              "price": 5
           },
           {
               "name": "Starter Service 2",
               "id": "Starter-service-id-2",
               "subOptions": [],
-              "price": "$6"
+              "price": 6
           }
       ]
   },
@@ -29,7 +29,7 @@
                       "name": "Bronze Service 1 - Sub1",
                       "id": "mild-id",
                       "subOptions": [],
-                      "price": "$7"
+                      "price": 7
                   },
                   {
                       "name": "Bronze Service 1 - Sub2",
@@ -39,13 +39,13 @@
                               "name": "Bronze Service 1 - Sub2-1",
                               "id": "jalapeno-id",
                               "subOptions": [],
-                              "price": "$8"
+                              "price": 8
                           },
                           {
                               "name": "Bronze Service 1 - Sub2-2",
                               "id": "cayenne-id",
                               "subOptions": [],
-                              "price": "$9"
+                              "price": 9
                           }
                       ]
                   }
@@ -55,7 +55,7 @@
               "name": "Bronze Service 2",
               "id": "bbq-id",
               "subOptions": [],
-              "price": "$9"
+              "price": 9
           }
       ]
   },
@@ -75,13 +75,13 @@
                               "name": "Silver Service 1 - Sub1 - 1",
                               "id": "siljalapeno-id-1",
                               "subOptions": [],
-                              "price": "$10"
+                              "price": 10
                           },
                           {
                               "name": "Silver Service 1 - Sub1 - 2",
                               "id": "siljalapeno-id-2",
                               "subOptions": [],
-                              "price": "$11"
+                              "price": 11
                           }
                       ]
                   },
@@ -89,7 +89,7 @@
                       "name": "Silver Service 1 - Sub2",
                       "id": "silmild-id",
                       "subOptions": [],
-                      "price": "$12"
+                      "price": 12
                   }
               ]
           }
@@ -107,7 +107,7 @@
                       "name": "VIP service 1 - Sub1",
                       "id": "vipmild-id",
                       "subOptions": [],
-                      "price": "$12"
+                      "price": 12
                   },
                   {
                       "name": "VIP service 1 - Sub2",
@@ -117,13 +117,13 @@
                               "name": "VIP service 1 - Sub2 - 1",
                               "id": "vipjalapeno-id",
                               "subOptions": [],
-                              "price": "$14"
+                              "price": 14
                           },
                           {
                               "name": "VIP service 1 - Sub2 - 2",
                               "id": "vipcayenne-id",
                               "subOptions": [],
-                              "price": "$15"
+                              "price": 15
                           }
                       ]
                   }
@@ -137,13 +137,13 @@
                       "name": "VIP Service 2 - Sub1",
                       "id": "VIP-service-id-1",
                       "subOptions": [],
-                      "price": "$20"
+                      "price": 20
                   },
                   {
                       "name": "VIP Service 2 - Sub2",
                       "id": "VIP-service-id-2",
                       "subOptions": [],
-                      "price": "$50"
+                      "price": 50
                   }
               ]
           }

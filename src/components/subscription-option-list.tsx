@@ -3,23 +3,23 @@ interface IProps {
     options?: any[];
     selectedOptions?: any;
     onChange: Function;
-    getPrice?: (price: string) => void;
+    addPrice: (price: number) => void;
+    subPrice: (price: number) => void;
 }
 
-const OptionsList = ({ options, onChange, selectedOptions, getPrice }: IProps) => {
+const OptionsList = ({ options, onChange, selectedOptions, addPrice, subPrice }: IProps) => {
     const handleCheckboxClicked = (selectedOption: any) => {
         let selectedOptionId = selectedOption.id;
-        if (typeof getPrice === 'function') {
-            getPrice(selectedOption.price);
-        }
         let cloneSelectedOptions = Object.assign({}, selectedOptions);
         // is currently selected
         if (cloneSelectedOptions[selectedOptionId]) {
             // remove selected key from options list
             delete cloneSelectedOptions[selectedOptionId];
+            if (typeof selectedOption.price === 'number') subPrice(selectedOption.price);
         } else { // is not currently selected
             // Add selected key to optionsList
             cloneSelectedOptions[selectedOptionId] = {}
+            if (typeof selectedOption.price === 'number') addPrice(selectedOption.price);
         }
         // call onChange function given by parent
         onChange(cloneSelectedOptions)
@@ -50,7 +50,8 @@ const OptionsList = ({ options, onChange, selectedOptions, getPrice }: IProps) =
                             options={option.subOptions}
                             selectedOptions={selectedOptions[option.id]}
                             onChange={(subSelections: any) => handleSubOptionsListChange(option.id, subSelections)}
-                            getPrice={getPrice}
+                            addPrice={addPrice}
+                            subPrice={subPrice}
                         />
                     }
                 </ul>
